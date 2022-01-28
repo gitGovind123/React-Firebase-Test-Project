@@ -1,0 +1,104 @@
+.login-buttons{
+    margin: 10px;    
+}
+.login-buttons .login-provider-button{
+    display: flex;
+    align-items: center;   
+    cursor: pointer;
+    padding: 10px;
+    background: rgb(207, 157, 253);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.login-buttons img{
+    width: 12%;
+    margin-right: 10px;
+}
+
+/* logout button start */
+
+.logout-button {
+    display: flex;
+    align-items: center;   
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+    background: rgb(207, 157, 253);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.logout-button img{
+    width: 20%;
+    margin-right: 10px;
+}
+.main_dashboard{
+    display: flex;
+}
+.left_section{
+    margin: 10px;
+    border-right: 1px solid #888;
+    padding-right:50px;
+}
+.dashboard {
+    margin: 10px;
+}
+.dashboard button {  
+    cursor: pointer;
+    padding: 10px;
+    justify-content: center;
+    background: rgb(207, 157, 253);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.dashboard p {  
+    font-weight: bold;
+}
+
+.main_dashboard {
+    border-bottom: 1px solid #888;
+    padding-bottom: 0px;
+}
+
+.channel-head {
+    font-weight: bold;
+}
+
+.channel-title {
+    font-weight: bold;
+}
+
+.channel-post {
+    font-weight: bold;
+}
+.channel label{
+    width: 70px;
+    display: inline-flex;
+}
+.channel .text_input{
+    display: flex;
+    margin-top: 20px;
+}
+.channel .heading{
+    font-weight: bold;
+}
+.channel .user_name{
+    display: flex;
+}
+.channel .user_name p:first-child{
+    margin-right: 10px;
+    font-weight: bold;
+}
+.submit{
+    display: flex;
+    flex-direction: column;
+}
+.submit_button{
+    margin-top:15px;
+    cursor: pointer;
+    padding: 10px;
+    justify-content: center;
+    background: rgb(207, 157, 253);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
